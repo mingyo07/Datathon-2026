@@ -1,4 +1,11 @@
-data/
+# 데이터 파일은 제외
+data/**/*
+
+# 폴더 구조 유지용 파일만 허용
+!data/raw/
+!data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 models/experiments/
 submissions/
 
