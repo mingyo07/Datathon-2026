@@ -1,0 +1,10 @@
+data/
+models/experiments/
+submissions/
+
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
