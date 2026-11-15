@@ -1,57 +1,9 @@
-# ===========================
-# 데이터 파일
-# ===========================
-data/**/*
-!data/raw/
-!data/processed/
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-*.parquet
-*.feather
-*.npy
-*.npz
-
-# ===========================
-# 학습된 모델
-# ===========================
-models/**/*
-!models/final/
-!models/final/.gitkeep
-
-*.pkl
-*.pt
-*.pth
-*.joblib
-*.ckpt
-
-# ===========================
-# 제출 파일
-# ===========================
-submissions/
-
-# ===========================
-# Python 환경
-# ===========================
-.venv/
-venv/
+# 대회 데이터와 결과 파일, 캐시는 올리지 않는다
+data/
+battery_data_light/
+*.csv
+!final.csv
+*.png
 __pycache__/
-*.pyc
-
-# ===========================
-# Jupyter / Colab
-# ===========================
-.ipynb_checkpoints/
-
-# ===========================
-# 환경 변수 및 로그
-# ===========================
-.env
-.env.*
-*.log
-
-# ===========================
-# 운영체제
-# ===========================
-.DS_Store
-Thumbs.db
+*.tmp
+check_submission.py
